@@ -4,8 +4,8 @@ config SHIELD_CRPD_DONGLE
 config SHIELD_CRPD_CENTRAL_LEFT
     def_bool $(shields_list_contains,crpd_central_left)
 
-config SHIELD_CRPD_P_LEFT
-    def_bool $(shields_list_contains,crpd_p_left)
+config SHIELD_CRPD_LEFT
+    def_bool $(shields_list_contains,crpd_left)
 
-config SHIELD_CRPD_P_RIGHT
-    def_bool $(shields_list_contains,crpd_p_right)
+config SHIELD_CRPD_RIGHT
+    def_bool $(shields_list_contains,crpd_right)
