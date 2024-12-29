@@ -1,4 +1,4 @@
-#include "corne.dtsi"
+#include "crpd.dtsi"
 
 &kscan0 {
   compatible = "zmk,kscan-gpio-matrix";
