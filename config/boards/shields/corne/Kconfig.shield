@@ -4,8 +4,8 @@ config SHIELD_CORNE_DONGLE
 config SHIELD_CORNE_CENTRAL_LEFT
     def_bool $(shields_list_contains,corne_central_left)
 
-config SHIELD_CORNE_PERIPHERAL_LEFT
-    def_bool $(shields_list_contains,corne_peripheral_left)
+config SHIELD_CORNE_P_LEFT
+    def_bool $(shields_list_contains,corne_p_left)
 
-config SHIELD_CORNE_PERIPHERAL_RIGHT
-    def_bool $(shields_list_contains,corne_peripheral_right)
+config SHIELD_CORNE_P_RIGHT
+    def_bool $(shields_list_contains,corne_p_right)
